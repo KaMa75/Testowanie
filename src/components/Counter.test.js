@@ -1,3 +1,7 @@
+import React from 'react';
+import renderer from 'react-test-renderer';
+import {shallow} from 'enzyme';
+
 import Counter from './Counter';
 
 describe('Test Counter component', () => {
