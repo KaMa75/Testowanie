@@ -28,7 +28,8 @@ class Counter extends Component {
     handleSetCount = () => {
         const {inputValue} = this.state;
         this.setState({
-            count: inputValue ? inputValue : this.props.start
+            count: inputValue ? inputValue : this.props.start,
+            inputValue: ''
         });
     }
 
